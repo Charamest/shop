@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <img class="gift" id="myBtn" src="images/podarok.png" onclick="gift()" width="100" alt="">
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close"> &times; </span>
+            <p> Поздравляем, вы получили подарок! Скидка 25%!
+            <p>
+        </div>
+    </div>
+    <header>
+        <div class="header-text animate__animated animate__fadeInLeftBig wow">
+            <span>ФУТБОЛКИ С ПРИНТАМИ</span><br>
+        </div>
+        <span class="price">499 <sup>руб.</sup></span><br>
+        <span class="price-text">ПОЧЕМУ ТАК ДЕШЕВО?</span>
+        <div class="header-images animate__animated animate__fadeInLeftBig">
+            <div class="header-image">
+                <img  src="images/sale.png" alt="" height="70px" width="105"><br>
+                <span> Низкие цены</span>
+            </div>
+            <div class="header-image">
+                <img src="images/gruzovik.png" alt="" height="95px" width="98"><br>
+                <span>Доставка по всей России</span>
+            </div>
+            <div class="header-image">
+                <img src="images/hit.png" alt="" height="80px" width="80px"><br>
+                <span>Только хиты</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-text animate__animated animate__fadeInLeftBig wow">
+            <h3 class="animate__animated animate__flash"> ФУТБОЛКИ</h3>
+            <span cla>100% хлопок</span>
+        </div>
+        <div class="main-items">
+            <div class="main-item">
+                <img src="images/tshirt-3.jpg" height="300px" alt="футболка с котиком"><br>
+                <span class="items-name">Футболка</span><br>
+                <span class="items-price"> 599 <sup> руб.</sup> </span><br>
+                <button onclick='alert("Заказ добавлен:\n1 \"Кошачья\" футболка")' class="item-button"> Добавить в заказ
+                </button>
+            </div>
+            <div class="main-item">
+                <img src="images/tshirt-2.jpg" alt="Футболка с ламой" height="300px"><br>
+                <span class="items-name">Футболка</span><br>
+                <span class="items-price"> 699 <sup>руб.</sup></span><br>
+                <button onclick='alert("Заказ добавлен:\n1 \"Львинная\" футболка")' class="item-button"> Добавить в
+                    заказ </button>
+            </div>
+        </div>
+    </main>
+    <section class="draw animate__animated animate__fadeInLeftBig wow">
+
+        <div class="draws-text">
+            <span class="kupon">РОЗЫГРЫШ</span><br>
+            <span class="draw-price">10 000 <sup> руб.</sup><br></span>
+            <span class="draw-text">
+                СРЕДИ ОБЛАДАТЕЛЕЙ<br>
+                КУПОНОВ<br>
+            </span>
+            <span class="draw-iformation">
+                Вечером 1 июня камагнда розыграет приз в прямом эфире на акаунте @ghdjbgfgh.ru
+
+            </span>
+
+        </div>
+        <div class="kupon-imge"><img src="images/money.jpg" alt="" width="200" height="200px"></div>
+    </section>
+
+
+    </section>
+    <section class="product animate__animated animate__fadeInLeftBig wow">
+        <div class="row">
+            <div class="product-item">
+                <img src="images/tshirt-1.jpg" height="300px" alt="футболка с котиком"><br>
+                <span class="">Футболка</span><br>
+                <span class="products-price"> 699 <sup> руб.</sup> </span><br>
+                <button class="product-button"> Добавить в заказ </button>
+            </div>
+            <div class="product-item">
+                <img src="images/tshirt-2.jpg" height="300px" alt="футболка с котиком"><br>
+                <span class="product-name">Футболка</span><br>
+                <span class="products-price"> 599 <sup> руб.</sup> </span><br>
+                <button class="product-button"> Добавить в заказ </button>
+            </div>
+            <div class="product-item">
+                <img src="images/tshirt-3.jpg" height="300px" alt="футболка с котиком"><br>
+                <span class="product-name">Футболка</span><br>
+                <span class="products-price"> 499 <sup> руб.</sup> </span><br>
+                <button class="product-button"> Добавить в заказ </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product-item">
+                <img src="images/tshirt-3.jpg" height="300px" alt="футболка с котиком"><br>
+                <span class="product-name">Футболка</span><br>
+                <span class="products-price"> 499 <sup> руб.</sup> </span><br>
+                <button class="product-button"> Добавить в заказ </button>
+            </div>
+            <div class="product-item">
+                <img src="images/tshirt-2.jpg" height="300px" alt="футболка с котиком"><br>
+                <span class="product-name">Футболка</span><br>
+                <span class="products-price"> 599 <sup> руб.</sup> </span><br>
+                <button class="product-button"> Добавить в заказ </button>
+            </div>
+            <div class="product-item">
+                <img src="images/tshirt-1.jpg" height="300px" alt="футболка с котиком"><br>
+                <span class="product-name">Футболка</span><br>
+                <span class="products-price"> 699 <sup> руб.</sup> </span><br>
+                <button class="product-button"> Добавить в заказ </button>
+            </div>
+        </div>
+
+    </section>
+    <section class="order">
+        <h2>ВАШ ЗАКАЗ</h2>
+        <div class="cart">
+            <h3> Корзина пуста </h3>
+        </div>
+        <div class="cart-text">Добавьте товар в корзину</div>
+        <section class="order-form animate__animated animate__fadeInLeftBig wow">
+            <form>
+                <h2> Оформление заказа</h2>
+                <label for="fname">Имя</label>
+                <input type="text" id="fname" name="lname" placeholder="Введите имя" required>
+                <label for="lname">Фамилия</label>
+                <input type="text" id="lname" name="lname" placeholder="Введите имя" required>
+                <label for="email">Электронная почта</label>
+                <input type="text" id="email" name="email" placeholder="example@email.com" required>
+                <label for="phone">Телефон</label>
+                <input type="text" id="phone" name="phone" placeholder=" +7 (123) 456 78-90" required>
+                <div class="payment-text"> Оплата онлайн</div>
+                <hr>
+                <button>Перейти к оплате</button>
+            </form>
+        </section>
+
+    </section>
+    <img class="helper" src="images/tp.png" onclick="print_contact()" alt="" width="80">
+    <script src="script.js"></script>
+    <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+
+</html>
