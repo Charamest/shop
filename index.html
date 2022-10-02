@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -30,7 +30,7 @@
         <span class="price-text">ПОЧЕМУ ТАК ДЕШЕВО?</span>
         <div class="header-images animate__animated animate__fadeInLeftBig">
             <div class="header-image">
-                <img  src="images/sale.png" alt="" height="70px" width="105"><br>
+                <img src="images/sale.png" alt="" height="70px" width="105"><br>
                 <span> Низкие цены</span>
             </div>
             <div class="header-image">
@@ -152,12 +152,21 @@
         </section>
 
     </section>
-    <img class="helper" src="images/tp.png" onclick="print_contact()" alt="" width="80">
-    <script src="script.js"></script>
-    <script src="wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+    <img class="helper" id="helperBtn" src="images/tp.png" onclick="print_contact()" alt="" width="80">
+    <div id="helperModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closerBtn"> &times; </span>
+            <p> skype:helper<br>
+                tel:79856432545<br>
+            <p>
+        </div>
+    </div>
+   
+        <script src="script.js"></script>
+        <script src="wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 </body>
 
 </html>
