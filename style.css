@@ -293,3 +293,30 @@ header {
 .helper:hover{
     transform: scale(1.2);
 }
+.rating {
+    align-items: center;
+    text-align: center;
+}
+.rating h2 {
+    font-size: 30px;
+}
+.rating p {
+    font-size: 20px;
+}
+.rating-Btn{
+        background: #d1ed47;  
+        background-image: linear-gradient(to bottom, #d1ed47, #c2d60f);
+        border-radius: 20px;
+        font-family: Georgia;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 40px 10px 40px;
+        text-decoration: none;
+      }
+      
+      .rating-Btn:hover {
+        background: #823cfa;
+        background-image: linear-gradient(to bottom, #809317, #87b01e);
+        text-decoration: none;
+        cursor: pointer;
+      }
